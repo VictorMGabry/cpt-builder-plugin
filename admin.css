@@ -1,0 +1,21 @@
+.vcomint-cpt-builder-wrap { max-width: 1180px; }
+.vcomint-cpt-card { background: #fff; border: 1px solid #dcdcde; padding: 20px; margin-top: 18px; border-radius: 6px; }
+.vcomint-cpt-card h2 { margin-top: 0; }
+.vcomint-cpt-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.vcomint-cpt-grid input, #vcomint-meta-table input, #vcomint-meta-table select, #vcomint-meta-table textarea { width: 100%; }
+.vcomint-cpt-supports { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.vcomint-cpt-card-header { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+#vcomint-meta-table textarea { min-height: 54px; }
+#vcomint-meta-table th:nth-child(5), #vcomint-meta-table td:nth-child(5) { min-width: 220px; }
+.vcomint-related-post-type-input { margin-top: 6px; }
+.vcomint-cpt-actions { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-top: 18px; background: #fff; border: 1px solid #dcdcde; padding: 16px 20px; border-radius: 6px; }
+.vcomint-cpt-delete-form { margin-top: 14px; }
+.vcomint-cpt-meta-field { padding-bottom: 14px; border-bottom: 1px solid #eee; }
+.vcomint-cpt-relationship-field { margin-top: 8px; }
+.vcomint-cpt-relationship-search { margin-bottom: 10px; width: 100%; max-width: 420px; }
+.vcomint-cpt-relationship-options { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 8px; max-height: 320px; overflow: auto; padding: 10px; border: 1px solid #dcdcde; background: #f6f7f7; border-radius: 6px; }
+.vcomint-cpt-relationship-option { display: block; padding: 8px 10px; background: #fff; border: 1px solid #dcdcde; border-radius: 6px; }
+.vcomint-cpt-relationship-option span { font-weight: 600; }
+.vcomint-cpt-relationship-option small { display: block; color: #646970; margin-top: 2px; }
+@media (max-width: 960px) { .vcomint-cpt-grid { grid-template-columns: 1fr 1fr; } .vcomint-cpt-actions { align-items: flex-start; flex-direction: column; } }
+@media (max-width: 640px) { .vcomint-cpt-grid { grid-template-columns: 1fr; } }
